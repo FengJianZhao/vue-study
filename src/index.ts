@@ -1,4 +1,5 @@
-mport Vue from "vue";
+import Vue from "vue";
+import HelloComponent from "./components/Hello";
 
 let v = new Vue({
     el: "#app",
@@ -9,5 +10,8 @@ let v = new Vue({
     </div>`,
     data: {
         name: "World"
+    },
+    components: {
+        HelloComponent
     }
 });
