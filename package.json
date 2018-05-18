@@ -1,0 +1,30 @@
+{
+  "name": "vue-study",
+  "version": "1.0.0",
+  "description": "just for study",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FengJianZhao/vue-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FengJianZhao/vue-study/issues"
+  },
+  "homepage": "https://github.com/FengJianZhao/vue-study#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "ts-loader": "^4.3.0",
+    "typescript": "^2.8.3",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.0.11",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3"
+  }
+}
